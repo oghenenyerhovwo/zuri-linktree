@@ -1,15 +1,17 @@
 import React from 'react';
 
+import { BrowserRouter } from "react-router-dom"
+
 import Profile from "./screens/ProfileScreen"
  
 function App() { 
       
     return (
-      <div className="app">
+      <BrowserRouter className="app">
         <main>
-          <Profile />
+            <Profile />
         </main>  
-      </div>
+      </BrowserRouter>
     )
 } 
  
