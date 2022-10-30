@@ -26,16 +26,14 @@ const Profile = () => {
           <Link id="pitch" to="https://background.zuri.team">Python Books </Link>
           <Link id="book__design" to="https://books.zuri.team/design-rules">Design Books</Link>
         </div>
+        <div className={styles.icons}>
+            <img src={slackIcon} alt="slackIcon" />
+            <img src={gitHubIcon} alt="gitHubIcon" />
+        </div>
         <div className={styles.footer}>
-            <div className={styles.icons}>
-                <img src={slackIcon} alt="slackIcon" />
-                <img src={gitHubIcon} alt="gitHubIcon" />
-            </div>
-            <div className={styles.base}>
-                <img src={ingressiveLogo} alt="ingressiveLogo" />
-                <h2>HNG Internship 9 Frontend Task</h2>
-                <img src={zuriLogo} alt="zuriLogo" />
-            </div>
+          <img className={styles.zuri_logo} src={zuriLogo} alt="zuriLogo" />
+          <h2>HNG Internship 9 Frontend Task</h2>
+          <img className={styles.ingressive_logo} src={ingressiveLogo} alt="ingressiveLogo" />
         </div>
     </div>
   )

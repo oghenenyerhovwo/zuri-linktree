@@ -1,8 +1,14 @@
-body { 
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, 
-      Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+@font-face{font-family: Inter; src: url("./assets/Inter/Inter-VariableFont_slnt,wght.ttf")}
+@font-face{font-family: MediumInter; src: url("./assets/Inter/static/Inter-Medium.ttf")}
+@font-face{font-family: RegularInter; src: url("./assets/Inter/static/Inter-Regular.ttf")}
+@font-face{font-family: BoldInter; src: url("./assets/Inter/static/Inter-SemiBold.ttf")}
+
+body {  
       margin: 0; 
       padding: 0;
+      --font-inter-400: "RegularInter", serif;
+      --font-inter-500: "MediumInter", serif;
+      --font-inter-700: "BoldInter", serif;
 }
 
 *, 
